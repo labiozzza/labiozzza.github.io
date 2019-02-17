@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: AVA;
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    width: 100%;
+    background: rgb(0,36,71);
+    background: linear-gradient(0deg, rgba(0,36,71,1) 0%, rgba(126,126,127,1) 100%);
+    background-repeat: no-repeat;
+    display: grid;
+    grid-template-columns: repeat(100%);
+    grid-gap: 10px;
+}
+header, main, footer{
+    color: white;
+    display: grid;
+    text-align: center;
+    justify-items: center;
+    align-items: center;
+}
+header, footer{
+    width: 100%;
+    font-size: 3vw;
+}
+header img{
+    margin-bottom: 18%;
+    margin-top: 25%;
+    border-radius: 50%;
+    border: 3px dashed #3A3A3A;
+}
+main{
+    font-size: 3.9vw;
+}
+main .slider{
+    width: 80vw;
+    height: 50vh;
+    background-color: #222A32;
+}
+footer form input{
+    width: 300px;
+    max-width: 90%;
+    height: 42px;
+    margin-bottom: 7px;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+footer form button{
+    width: 300px;
+    max-width: 90%;
+    height: 55px;
+}
+footer .social {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+footer .social a{
+    width: 100%;
+}
